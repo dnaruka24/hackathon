@@ -104,6 +104,7 @@ const HomeRecipes = () => {
               title={recipe.title.en}
               description={recipe.description.en}
               image={recipe.image}
+              youtubeLink={recipe.youtubeLink}
             />
           </motion.div>
         ))}
