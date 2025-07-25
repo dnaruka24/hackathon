@@ -23,8 +23,8 @@ const HomeRecipes = () => {
 
   return (
     <div className="relative w-full">
-      {/* Navigation Buttons - Hidden on mobile */}
-      <div className="hidden md:flex justify-between items-center mb-4">
+      {/* Navigation Buttons */}
+      <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-bold text-white">Featured Recipes</h2>
         <div className="flex gap-2">
           <button
